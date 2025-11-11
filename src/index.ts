@@ -10,9 +10,13 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// CORS configuration for Vite frontend
+// CORS configuration for frontend
 const corsOptions = {
-  origin: ["http://localhost:5173", "http://localhost:5174"], // Vite default ports
+  origin: [
+    "http://localhost:5173", 
+    "http://localhost:5174",
+    "https://5star-inventory.netlify.app" // Production frontend
+  ],
   credentials: true,
   optionsSuccessStatus: 200
 };
