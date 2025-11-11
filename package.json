@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-  "build": "tsc",
-  "start": "node dist/index.js",
-  "seed": "ts-node src/seed.ts",
-  "seed:force": "ts-node src/seed-force.ts",
-  "seed:rehab": "ts-node src/seed-rehab.ts"
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "seed": "ts-node src/seed.ts",
+    "seed:force": "ts-node src/seed-force.ts",
+    "seed:rehab": "ts-node src/seed-rehab.ts"
   },
   "keywords": [],
   "author": "",
